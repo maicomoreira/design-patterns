@@ -10,24 +10,24 @@ Mapeamento das seções do [README principal](../README.md) para pastas de **doc
 | 2 | Revisão de POO | [foundation/02-revisao-poo](foundation/02-revisao-poo/) — artigo: [artigo.md](foundation/02-revisao-poo/artigo.md) |
 | 3 | Visão geral GoF e SOLID | [foundation/03-visao-geral-gof-e-solid](foundation/03-visao-geral-gof-e-solid/) — artigo: [artigo.md](foundation/03-visao-geral-gof-e-solid/artigo.md) |
 
-## Padrões GoF na ordem do currículo (seções 6–8)
+## Padrões GoF na ordem do currículo (seções 4–6)
 
 | Ordem | Seção no README | Família GoF | Pasta do artigo | Python | C# |
 |-------|-----------------|-------------|-----------------|--------|-----|
-| 6 | Singleton | Criação | [patterns/creational/singleton](patterns/creational/singleton/) | `designpatterns_examples.creational.singleton` | `Creational/Singleton` |
-| 7 | Template Method | Comportamento | [patterns/behavioral/template-method](patterns/behavioral/template-method/) | `designpatterns_examples.behavioral.template_method` | `Behavioral/TemplateMethod` |
-| 8 | Strategy | Comportamento | [patterns/behavioral/strategy](patterns/behavioral/strategy/) | `designpatterns_examples.behavioral.strategy` | `Behavioral/Strategy` |
+| 4 | Singleton | Criação | [patterns/creational/singleton](patterns/creational/singleton/) | `designpatterns_examples.creational.singleton` | `Creational/Singleton` |
+| 5 | Template Method | Comportamento | [patterns/behavioral/template-method](patterns/behavioral/template-method/) | `designpatterns_examples.behavioral.template_method` | `Behavioral/TemplateMethod` |
+| 6 | Strategy | Comportamento | [patterns/behavioral/strategy](patterns/behavioral/strategy/) | `designpatterns_examples.behavioral.strategy` | `Behavioral/Strategy` |
 
 ## Demais padrões GoF (expansão)
 
 Listados em [patterns/creational](patterns/creational/README.md), [patterns/structural](patterns/structural/README.md) e [patterns/behavioral](patterns/behavioral/README.md).
 
-## Anti-padrões (seção 9)
+## Anti-padrões (seção 7)
 
 | Seção no README | Pasta |
 |-----------------|-------|
 | Anti-padrões comuns | [cross-cutting/antipatterns](cross-cutting/antipatterns/) |
 
-## Diagramas e UML
+## Diagramas
 
-Material de apoio opcional: [diagrams](diagrams/).
+Material de apoio opcional (Mermaid ou imagens): [diagrams](diagrams/).

@@ -11,7 +11,7 @@ Repositório didático: **padrões GoF (Gang of Four)**, fundamentos de POO/SOLI
 | Recurso | Caminho |
 |---------|---------|
 | Roadmap (currículo → pastas) | [docs/roadmap.md](docs/roadmap.md) |
-| Guia de redação de artigos | [docs/estrutura-de-artigos.md](docs/estrutura-de-artigos.md) |
+| Guia de redação de artigos (online) | *URL pública a definir pelos mantenedores* |
 | Template de artigo | [docs/templates/artigo-linkedin.md](docs/templates/artigo-linkedin.md) |
 | Índice da documentação | [docs/README.md](docs/README.md) |
 | Artigo — Introdução aos Design Patterns | [docs/foundation/01-introducao-design-patterns/artigo.md](docs/foundation/01-introducao-design-patterns/artigo.md) |
@@ -32,7 +32,6 @@ Repositório didático: **padrões GoF (Gang of Four)**, fundamentos de POO/SOLI
 - Padrões de Extensão
 - Padrões e Programação GUI
 - Padrões Arquiteturais e Frameworks
-- Padrão MVC
 - Componentes
 
 ## Competências
@@ -44,13 +43,13 @@ Repositório didático: **padrões GoF (Gang of Four)**, fundamentos de POO/SOLI
 - Sintetizar e expor a situação problema, relacionando elementos fundamentais.
 - Dominar vocabulário específico, usando corretamente vocabulários, expressões e termos técnicos em projetos, sistemas e documentos.
 - Planejar, programar e projetar a análise ou construção de um software ou projeto em informática.
-- Modelar e compreender a análise e a diagramação de soluções para diversos tipos de problemas computacionais.
+- Modelar e compreender a análise e a modelagem de soluções para diversos tipos de problemas computacionais.
 
 ---
 
 # Conteúdo e Objetivos de Design Patterns
 
-Este conteúdo visa explorar conceitos de Programação Orientada a Objetos (POO), padrões de projeto GoF, princípios SOLID e exemplos práticos com C# e UML.
+Este conteúdo visa explorar conceitos de Programação Orientada a Objetos (POO), padrões de projeto GoF, princípios SOLID e exemplos práticos em **C#** e **Python**.
 
 **Estrutura de pastas:** taxonomia GoF em [docs/patterns/](docs/patterns/) (`creational`, `structural`, `behavioral`); trilha introdutória em [docs/foundation/](docs/foundation/); anti-padrões em [docs/cross-cutting/antipatterns/](docs/cross-cutting/antipatterns/).
 
@@ -78,12 +77,11 @@ Este conteúdo visa explorar conceitos de Programação Orientada a Objetos (POO
 - Principais erros e más práticas em POO.
 
 ### Prática:
-- Interpretar e criticar diagramas UML de POO.
-- Desenvolver exemplos de código em C# para demonstrar relacionamentos e multiplicidade.
+- Ler e criticar modelos de classes e relacionamentos expressos em código (C# e Python).
+- Desenvolver exemplos de código em C# e Python para demonstrar relacionamentos e multiplicidade.
 
 ### Objetivo:
 - Relembrar conceitos fundamentais de POO.
-- Interpretar diagramas UML.
 - Diferenciar relacionamentos e analisar exemplos de código.
 - Identificar e corrigir más práticas em POO.
 
@@ -108,43 +106,7 @@ Este conteúdo visa explorar conceitos de Programação Orientada a Objetos (POO
 
 ---
 
-## 4. Padrão MVC
-
-### Conteúdo:
-- Como modelar um projeto em MVC.
-- Variações do MVC e alternativas modernas (MVVM, MVP).
-- Uso das ferramentas Enterprise Architect (EA) e Draw.io.
-- Exportação/Importação de classes no EA e no Visual Studio Code.
-- Modelagem de projetos em MVC no Visual Studio Code.
-
-### Prática:
-- Definir e implementar o padrão MVC em projetos práticos.
-- Organizar projetos utilizando ferramentas de engenharia de software.
-
-### Objetivo:
-- Implementar e organizar projetos seguindo o padrão MVC.
-- Integrar ferramentas como EA e Draw.io no fluxo de desenvolvimento.
-
----
-
-## 5. Conceitos e Exemplos em UML, C#
-
-### Conteúdo:
-- Herança, Classe Abstrata, Interface, Polimorfismo, Sobrecarga de método (em UML e C#).
-
-### Prática:
-- Criar programas que demonstrem herança, classes abstratas, interfaces e polimorfismo em C#.
-- Diagramar conceitos usando UML para visualização clara.
-- Atividade prática de criação de um diagrama UML completo para um problema específico.
-
-### Objetivo:
-- Relembrar e resolver problemas relacionados à POO.
-- Criar exemplos práticos em C# que implementem conceitos avançados de POO.
-- Exercitar a criação e análise de diagramas UML complexos.
-
----
-
-## 6. Padrão GoF – Criação de Objetos: Singleton
+## 4. Padrão GoF – Criação de Objetos: Singleton
 
 ### Conteúdo:
 - Conceito e exemplo de implementação do padrão Singleton.
@@ -164,7 +126,7 @@ Este conteúdo visa explorar conceitos de Programação Orientada a Objetos (POO
 
 ---
 
-## 7. Padrão GoF – Comportamental – Template Method
+## 5. Padrão GoF – Comportamental – Template Method
 
 ### Conteúdo:
 - Conceito do padrão Template Method.
@@ -181,7 +143,7 @@ Este conteúdo visa explorar conceitos de Programação Orientada a Objetos (POO
 
 ---
 
-## 8. Padrão GoF – Comportamental – Strategy
+## 6. Padrão GoF – Comportamental – Strategy
 
 ### Conteúdo:
 - Conceito do padrão Strategy.
@@ -198,7 +160,7 @@ Este conteúdo visa explorar conceitos de Programação Orientada a Objetos (POO
 
 ---
 
-## 9. Anti-padrões Comuns em Design Patterns
+## 7. Anti-padrões Comuns em Design Patterns
 
 ### Conteúdo:
 - Introdução aos anti-padrões: práticas que resolvem problemas de forma inadequada.
@@ -212,7 +174,7 @@ Este conteúdo visa explorar conceitos de Programação Orientada a Objetos (POO
 
 ## Conclusão e Próximos Passos
 
-Este plano de conteúdo visa fortalecer o entendimento de conceitos fundamentais de POO, padrões de projeto GoF e boas práticas de design, com uma abordagem focada em exemplos práticos e atividades em C#, Python e UML.
+Este plano de conteúdo visa fortalecer o entendimento de conceitos fundamentais de POO, padrões de projeto GoF e boas práticas de design, com uma abordagem focada em exemplos práticos e atividades em **C#** e **Python**.
 
 ### Próximos Passos:
 - Incentivar a exploração de frameworks e bibliotecas que utilizam design patterns.

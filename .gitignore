@@ -21,3 +21,6 @@ build/
 
 # Local files not part of this repo (see project history)
 /Histórico de linguagens.pdf
+
+# Guia de redação mantido fora do Git (publicação online); cópia local opcional
+docs/estrutura-de-artigos.md

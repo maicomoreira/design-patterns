@@ -4,14 +4,15 @@ Obrigado por considerar contribuir com este repositório didático sobre **padr�
 
 ## Objetivo e tom
 
-- Mantenha o foco educativo: clareza, consistência com o [roadmap](docs/roadmap.md) e com a [estrutura de artigos](docs/estrutura-de-artigos.md).
+- Mantenha o foco educativo: clareza e consistência com o [roadmap](docs/roadmap.md).
+- **Guia de redação (LinkedIn):** documento publicado fora deste repositório — *URL pública a definir pelos mantenedores* (ver também a tabela no [README](README.md)).
 - Novos padrões devem ser **espelhados** em Python e C# quando fizer sentido (mesmo exemplo conceitual, duas implementações).
 
 ## Como propor uma mudança
 
 1. Abra uma **issue** (ou discuta na PR) com o padrão/tópico e o que pretende entregar (docs, código, testes).
 2. Siga a taxonomia em `docs/patterns/` (`creational`, `structural`, `behavioral`) e a trilha em `docs/foundation/` quando aplicável.
-3. Para artigos novos, use o [template](docs/templates/artigo-linkedin.md) e as diretrizes em [estrutura-de-artigos.md](docs/estrutura-de-artigos.md).
+3. Para artigos novos, use o [template](docs/templates/artigo-linkedin.md) e siga o guia de redação online (quando a URL estiver publicada no README).
 4. Atualize o [README](README.md) ou [docs/README.md](docs/README.md) se adicionar entradas ao índice.
 
 ## Verificação local
