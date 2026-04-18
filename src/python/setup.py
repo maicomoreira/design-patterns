@@ -9,7 +9,7 @@ from setuptools import find_packages, setup
 
 _root = Path(__file__).resolve().parent
 
-# Optional-dependencies (dev) ficam só em pyproject.toml para não duplicar.
+# Extras `dev` espelham [project.optional-dependencies] em pyproject.toml (pip pode usar setup.py em modo editável).
 
 setup(
     name="designpatterns-examples",
