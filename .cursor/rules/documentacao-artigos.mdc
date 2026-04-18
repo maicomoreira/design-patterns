@@ -1,0 +1,27 @@
+---
+description: Onde versionar artigos e documentação didática (fonte canônica em docs/, não na wiki)
+globs: docs/**/*.md
+alwaysApply: false
+---
+
+# Documentação e artigos
+
+## Fonte canônica
+
+- Artigos do currículo e material didático principal: **`docs/`** neste repositório (tipicamente `artigo.md` em `docs/foundation/...` ou `docs/patterns/<família>/<padrão>/`).
+- A **GitHub Wiki** não substitui `docs/`. Não coloque artigos novos só na wiki; use PR neste repositório para texto que integra o roadmap e os exemplos em `src/`.
+
+## Ao adicionar ou alterar um padrão
+
+1. Criar ou atualizar pasta sob `docs/patterns/creational|structural|behavioral/<nome>/`.
+2. Manter `README.md` e `artigo.md` alinhados ao estilo das pastas existentes; ligar aos caminhos de código em `src/python` e `src/csharp` quando houver exemplo.
+3. Atualizar `docs/roadmap.md` se o item passar a fazer parte da trilha oficial.
+4. Atualizar `docs/README.md` ou `README.md` se novos índices forem necessários.
+
+## Commits
+
+- Preferir prefixo `docs:` para mudanças em `artigo.md`, READMEs de padrão e roadmap.
+
+## Wiki
+
+- Opcional: apenas índice com links para `https://github.com/maicomoreira/design-patterns/blob/main/docs/...` — ver `CONTRIBUTING.md`.

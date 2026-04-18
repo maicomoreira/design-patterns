@@ -19,6 +19,9 @@ build/
 .idea/
 .DS_Store
 
+# Clone local da GitHub Wiki (auditoria / push pontual); não versionar
+.wiki-audit/
+
 # Local files not part of this repo (see project history)
 /Histórico de linguagens.pdf
 

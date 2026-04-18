@@ -11,8 +11,9 @@ Repositório didático: **padrões GoF (Gang of Four)**, fundamentos de POO/SOLI
 | Recurso | Caminho |
 |---------|---------|
 | Roadmap (currículo → pastas) | [docs/roadmap.md](docs/roadmap.md) |
-| Guia de redação de artigos (online) | *URL pública a definir pelos mantenedores* |
-| Template de artigo | [docs/templates/artigo-linkedin.md](docs/templates/artigo-linkedin.md) |
+| Artigos (texto-base LinkedIn) | Pastas em [docs/](docs/) — ver [docs/README.md](docs/README.md); template em [docs/templates/artigo-linkedin.md](docs/templates/artigo-linkedin.md) |
+| Wiki GitHub (índice / atalhos) | [github.com/maicomoreira/design-patterns/wiki](https://github.com/maicomoreira/design-patterns/wiki) — opcional; **conteúdo canônico** permanece em `docs/` no repositório |
+| Guia de estilo extra (opcional, fora do repo) | *URL pública a definir pelos mantenedores*, se houver documento além do template |
 | Índice da documentação | [docs/README.md](docs/README.md) |
 | Artigo — Introdução aos Design Patterns | [docs/foundation/01-introducao-design-patterns/artigo.md](docs/foundation/01-introducao-design-patterns/artigo.md) |
 | Artigo — Revisão de POO | [docs/foundation/02-revisao-poo/artigo.md](docs/foundation/02-revisao-poo/artigo.md) |
