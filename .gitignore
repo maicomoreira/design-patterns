@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# .NET
+**/bin/
+**/obj/
+.vs/
+*.user
+*.DotSettings.user
+
+# IDE / OS
+.idea/
+.DS_Store
+
+# Local files not part of this repo (see project history)
+/Histórico de linguagens.pdf

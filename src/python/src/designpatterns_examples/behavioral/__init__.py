@@ -1,0 +1,1 @@
+"""Padrões comportamentais (GoF)."""

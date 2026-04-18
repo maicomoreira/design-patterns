@@ -1,5 +1,24 @@
 # Design Patterns
 
+Repositório didático: **padrões GoF (Gang of Four)**, fundamentos de POO/SOLID, artigos no formato LinkedIn e **exemplos espelhados em Python e C#**.
+
+[![CI](https://github.com/maicomoreira/design-patterns/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/maicomoreira/design-patterns/actions/workflows/ci.yml)
+
+- **Licença:** [CC BY-SA 4.0](LICENSE)
+- **Como contribuir:** [CONTRIBUTING.md](CONTRIBUTING.md)
+- **Código de conduta:** [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) · **Segurança:** [SECURITY.md](SECURITY.md)
+
+| Recurso | Caminho |
+|---------|---------|
+| Roadmap (currículo → pastas) | [docs/roadmap.md](docs/roadmap.md) |
+| Guia de redação de artigos | [docs/estrutura-de-artigos.md](docs/estrutura-de-artigos.md) |
+| Template de artigo | [docs/templates/artigo-linkedin.md](docs/templates/artigo-linkedin.md) |
+| Índice da documentação | [docs/README.md](docs/README.md) |
+| Artigo — Introdução aos Design Patterns | [docs/foundation/01-introducao-design-patterns/artigo.md](docs/foundation/01-introducao-design-patterns/artigo.md) |
+| Artigo — Revisão de POO | [docs/foundation/02-revisao-poo/artigo.md](docs/foundation/02-revisao-poo/artigo.md) |
+| Exemplos Python | [src/python/README.md](src/python/README.md) |
+| Exemplos C# | [src/csharp/README.md](src/csharp/README.md) |
+
 ## Padrões de Projeto
 - Correção
 - Robustez
@@ -33,6 +52,8 @@
 
 Este conteúdo visa explorar conceitos de Programação Orientada a Objetos (POO), padrões de projeto GoF, princípios SOLID e exemplos práticos com C# e UML.
 
+**Estrutura de pastas:** taxonomia GoF em [docs/patterns/](docs/patterns/) (`creational`, `structural`, `behavioral`); trilha introdutória em [docs/foundation/](docs/foundation/); anti-padrões em [docs/cross-cutting/antipatterns/](docs/cross-cutting/antipatterns/).
+
 ---
 
 ## 1. Introdução aos Design Patterns
@@ -43,6 +64,8 @@ Este conteúdo visa explorar conceitos de Programação Orientada a Objetos (POO
 
 ### Objetivo:
 - Apresentar a relevância e o impacto dos design patterns no desenvolvimento de software de qualidade.
+
+**Artigo (texto-base LinkedIn):** [docs/foundation/01-introducao-design-patterns/artigo.md](docs/foundation/01-introducao-design-patterns/artigo.md)
 
 ---
 
@@ -63,6 +86,8 @@ Este conteúdo visa explorar conceitos de Programação Orientada a Objetos (POO
 - Interpretar diagramas UML.
 - Diferenciar relacionamentos e analisar exemplos de código.
 - Identificar e corrigir más práticas em POO.
+
+**Artigo (texto-base LinkedIn):** [docs/foundation/02-revisao-poo/artigo.md](docs/foundation/02-revisao-poo/artigo.md)
 
 ---
 
@@ -135,6 +160,8 @@ Este conteúdo visa explorar conceitos de Programação Orientada a Objetos (POO
 - Desenvolver projetos que utilizem o padrão Singleton em diferentes contextos.
 - Compreender variações do Singleton e aplicabilidade.
 
+**Material do repositório:** [docs/patterns/creational/singleton/](docs/patterns/creational/singleton/) · Python · C#
+
 ---
 
 ## 7. Padrão GoF – Comportamental – Template Method
@@ -150,6 +177,8 @@ Este conteúdo visa explorar conceitos de Programação Orientada a Objetos (POO
 - Definir e demonstrar o padrão Template Method.
 - Desenvolver um projeto utilizando Template Method.
 
+**Material do repositório:** [docs/patterns/behavioral/template-method/](docs/patterns/behavioral/template-method/) · Python · C#
+
 ---
 
 ## 8. Padrão GoF – Comportamental – Strategy
@@ -164,6 +193,8 @@ Este conteúdo visa explorar conceitos de Programação Orientada a Objetos (POO
 ### Objetivo:
 - Definir e demonstrar o padrão Strategy.
 - Desenvolver um projeto utilizando o padrão Strategy.
+
+**Material do repositório:** [docs/patterns/behavioral/strategy/](docs/patterns/behavioral/strategy/) · Python · C#
 
 ---
 
