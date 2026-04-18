@@ -12,7 +12,11 @@ Obrigado por considerar contribuir com este repositório didático sobre **padr�
 
 - **Fonte canônica:** todo artigo do currículo e material didático principal deve existir em **`docs/**/*.md`** (em geral `artigo.md` na pasta do tópico, mais `README.md` do padrão quando aplicável). Revise via **PR** neste repositório.
 - **GitHub Wiki** (`design-patterns.wiki`): use só como **índice** com links para arquivos em `main`, ou para notas legadas explicitamente marcadas. **Não** use a wiki como único destino de artigos novos do currículo — isso quebra revisão, CI e ligação com `src/`.
-- Ao incluir um padrão ou nova seção na trilha: pasta sob `docs/patterns/...` ou `docs/foundation/...`, atualize [docs/roadmap.md](docs/roadmap.md) e os índices em [README.md](README.md) / [docs/README.md](docs/README.md) quando fizer sentido.
+- Ao incluir um padrão ou nova seção na trilha:
+  - Criar pasta sob `docs/patterns/creational|structural|behavioral/<nome>/` (ou `docs/foundation/<nn>-<slug>/`).
+  - Adicionar/atualizar `artigo.md` (e `README.md` do padrão quando aplicável), seguindo o estilo das pastas já existentes.
+  - Se o item entrar no currículo, atualizar [docs/roadmap.md](docs/roadmap.md).
+  - Atualizar índices em [README.md](README.md) e/ou [docs/README.md](docs/README.md) quando fizer sentido.
 
 ## Como propor uma mudança
 
